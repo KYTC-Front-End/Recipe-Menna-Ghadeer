@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assests/style/style.css">
+    <link rel="stylesheet" href="./assests/style/media.css">
+  <style>
+    .col {
+    flex: 30%;
+ 
+    @media only screen and (min-width: 31.375em) {  // 502px
+        flex: 50%;
+    }
+
+    @media only screen and (min-width: 48em) {  // 768px 
+        flex: 33.3333%;
+    }
+}
+
+.grid-item {
+    padding: 1rem;
+ 
+    & img {
+        width: 100%;
+        height: 15.625rem;
+        object-fit: cover;
+        object-position: 50% 50%;
+
+        @media only screen and (min-width: 31.375em) {
+            // height: 25rem;
+    
+        }
+        @media only screen and (min-width: 81.25em) {  // 1300px
+            height: 28.125em;
+        }
+    }
+}
+  </style>
+</head>
+<body>
+    <header>
+    <nav>
+      <div class="logo">
+        <img src='./assests/image/logo.jpeg' />
+        <form class="search">
+          <!-- <i class="fa fa-search"></i> -->
+          <input type="text" placeholder="  Search.." name="">
+        </form>
+      </div>
+      <hr color="#e35640">
+      <br>
+      <ul class='nav-bar'>
+        <span class="menu">
+          <li><a href="">Home</a></li>
+          <li><a href="">Feature</a></li>
+          <li><a href="">Menu</a></li>
+          <li><a href="">Add Recipe</a></li>
+        </span>
+      </ul>
+    </nav>
+  </header>
+    <div class="grid-container">
+
+<div class="col">
+    <figure class="grid-item">
+        <img src="./assests/image/main-cource.PNG" alt="" class="filltir">
+    </figure>
+</div>
+<div class="col">
+ <figure class="grid-item">
+     <img src="./assests/image/salad.PNG" alt="" class="filltir">
+
+ </figure>
+</div>
+<div class="col">
+ <figure class="grid-item">
+     <img src="./assests/image/sweetes.PNG" alt="" class="filltir">
+
+ </figure>
+</div>
+<div class="col">
+ <figure class="grid-item">
+     <img src="./assests/image/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg" alt="">
+     <h4><b>Sweets </b></h4> 
+     <p>Lorem, ipsum dolor.</p> 
+ </figure>
+</div>
+<div class="col">
+ <figure class="grid-item">
+     <img src="./assests/image/casey-lee-awj7sRviVXo-unsplash.jpg" alt="">
+     <h4><b>Salad</b></h4> 
+     <p>Lorem, ipsum dolor.</p> 
+ </figure>
+</div>
+<div class="col">
+ <figure class="grid-item">
+     <img src="./assests/image/chad-montano-eeqbbemH9-c-unsplash.jpg" alt="">
+     <h4><b>Sweets </b></h4> 
+     <p>Lorem, ipsum dolor.</p> 
+ </figure>
+</div>
+<div class="col">
+ <figure class="grid-item">
+     <img src="./assests/image/eiliv-aceron-ZuIDLSz3XLg-unsplash.jpg" alt="">
+     <h4><b>Salad</b></h4> 
+     <p>Lorem, ipsum dolor.</p> 
+ </figure>
+</div>
+<div class="col">
+ <figure class="grid-item">
+     <img src="./assests/image/lidye-1Shk_PkNkNw-unsplash.jpg" alt="">
+     <h4><b>Main course</b></h4> 
+     <p>Lorem, ipsum dolor.</p> 
+ </figure>
+</div>
+<div class="col">
+    <figure class="grid-item">
+        <img src="./assests/image/food-detiles-burguer.jpg" alt="">
+        <h4><b>Main course</b></h4> 
+        <p>Lorem, ipsum dolor.</p> 
+    </figure>
+   </div>
+</div>
+</body>
+</html>
