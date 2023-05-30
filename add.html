@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assests/style/style.css">
-    <link rel="stylesheet" href="./assests/style/media.css">
-   
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assests/style/style.css">
+  <link rel="stylesheet" href="./assests/style/media.css">
+
 </head>
+
 <body>
   <header>
     <nav>
@@ -31,34 +33,35 @@
       </ul>
     </nav>
   </header>
-    <h2>If you have an additional Recipe</h2>
-<div class="container">
-  <form action="/action_page.php">
-    <div class="row">
-      <div class="col-25">
-        <label for="Recipe Name ">Recipe Name </label>
+  <h2>If you have an additional Recipe</h2>
+  <div class="container">
+    <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="Recipe Name ">Recipe Name </label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Recipe Name" name="Recipe Name" placeholder="Recipe Name ..">
+        </div>
       </div>
-      <div class="col-75">
-        <input type="text" id="Recipe Name" name="Recipe Name" placeholder="Recipe Name ..">
+      <div class="row">
+        <div class="col-25">
+          <label for="Recipe gradients">Recipe gradients</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Recipe gradients" name="Recipe gradients" placeholder="Recipe gradients..">
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="Recipe gradients">Recipe gradients</label>
+      <div class="row">
+        <div class="col-25">
+          <label for="Recipe steps">Recipe steps</label>
+        </div>
+        <div class="col-75">
+          <textarea id="Recipe steps" name="Recipe steps" placeholder="Write Recipe steps.."
+            style="height:200px"></textarea>
+        </div>
       </div>
-      <div class="col-75">
-        <input type="text" id="Recipe gradients" name="Recipe gradients" placeholder="Recipe gradients..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="Recipe steps">Recipe steps</label>
-      </div>
-      <div class="col-75">
-        <textarea id="Recipe steps" name="Recipe steps" placeholder="Write Recipe steps.." style="height:200px"></textarea>
-      </div>
-    </div>
-    <div class="row">
+      <div class="row">
         <div class="col-25">
           <label for="Notes">Notes</label>
         </div>
@@ -71,14 +74,41 @@
           <label for="Notes">Picture</label>
         </div>
         <div class="col-75">
-          <input type="file"  >
+          <input type="file">
         </div>
       </div>
-    <div class="row">
-      <input type="submit" value="Send">
-    </div>
-  </form>
-</div>
-
+      <div class="row">
+        <input type="submit" value="Send">
+      </div>
+    </form>
+  </div>
+  <!-- START FOOTER SECTION -->
+  <footer>
+    <img src="imges/logo.png" alt="">
+    <ul class='footer-bar'>
+      <span class="footer-menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Feature</a></li>
+        <li><a href="">Menu</a></li>
+        <li><a href="">Add Recipe</a></li>
+      </span>
+    </ul>
+    <hr>
+    <span class="footer-rights">
+      <ul>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Terms of Use</a></li>
+      </ul>
+    </span>
+    <span class="footer-social">
+      <a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
+    </span>
+    <p class="copyright"> &copy; 2023 All Rights Reserved "MG"</p>
+  </footer>
+  <!-- END SECTION HIGHLIGTING SECTION -->
 </body>
+
 </html>

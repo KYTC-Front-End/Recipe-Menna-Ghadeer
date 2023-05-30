@@ -122,9 +122,11 @@
     .section-highlighting .form-info {
         gap: 2rem;
     }
+
     .section-highlighting .form-info .box-highlighting {
-            width: 25rem;
+        width: 25rem;
     }
+
     .section-highlighting .form-info .box-highlighting .img {
         width: 25rem;
 
