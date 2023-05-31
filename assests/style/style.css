@@ -437,146 +437,72 @@ input[type=submit]:hover {
 }
 
 
-/* \\\\\\\\  derailes */
-.left-deteiles-section {
-	background-color: #E35640;
-	width: 80%;
-	height: 250px;
-	float: left;
-	position: relative;
+/* <!-- START DETAILS SECTION --> */
+
+.details aside {
+	background-color: #e35640;
+	align-items: center;
+	justify-content: space-around;
 	display: flex;
-	justify-content: center;
+	gap: 10rem;
 }
 
-.right-deteiles-section {
-	background-color: blue;
-	width: 20%;
-	height: 250px;
-	float: right;
-	position: relative;
-	display: flex;
-	justify-content: flex-start;
+.details div .det1 {
+	width: 20rem;
+	height: 20rem;
 
 }
 
-.left-deteiles-section img {
-	position: absolute;
-	width: 90px;
-	height: 90px;
-	top: 30%;
+.details .det2 {
+	width: 40rem;
+	height: 37rem;
 
 }
 
-.left-deteiles-section p {
-	position: absolute;
-	color: rgb(255, 255, 255);
-	top: 60%;
-	font-weight: 500;
-	font-size: 16px;
-}
-
-.right-deteiles-section .img1 {
-	position: absolute;
-	width: 100%;
-	height: 250px;
-}
-
-.Ingredients {
-	position: relative;
-}
-
-.list1 {
-	position: absolute;
-	width: 472px;
-	height: 294px;
-	left: 126px;
-	top: 320px;
-
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 149.02%;
-}
-
-.list2 {
-	position: absolute;
-	width: 472px;
-	height: 294px;
-	left: 723px;
-	top: 320px;
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 149.02%;
-}
-
-#Ingredients {
-	position: absolute;
-	width: 205px;
-	height: 54px;
-	left: 126px;
-	top: 250px;
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 800;
-	font-size: 36px;
-}
-
-.detils-Instructions-section {
-	position: relative;
-}
-
-#Instructions {
-	position: absolute;
-	width: 218px;
-	height: 54px;
-	left: 113px;
-	top: 500px;
-
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 800;
-	font-size: 36px;
-	line-height: 149.02%;
-}
-
-.instr-list {
-	position: absolute;
-	width: 70%;
-	height: 921px;
-	left: 126px;
-	top: 600px;
-	font-family: 'Inter';
-	font-style: normal;
-	font-size: 16px;
-	line-height: 149.02%;
-}
-
-.btn-section {
-	position: relative;
-}
-
-.back-btn {
-	position: absolute;
-	left: 200px;
-	top: 1000px;
-
-}
-
-.print-btn {
-	position: absolute;
-	left: 600px;
-	top: 1000px;
-
-}
-
-button {
-	width: 211px;
-	height: 50px;
-	background-color: #E35640;
-	border-radius: 29px;
-	color: #fff;
+.details div p {
+	line-height: 5rem;
 	text-align: center;
+	font-size: 2rem;
+	color: #fff;
 }
+
+.details h4 {
+	margin-left: 5rem;
+	font-size: 2rem;
+	padding: 2rem 0;
+}
+
+.details .ingredients {
+	width: 70%;
+	margin: auto;
+	display: flex;
+	gap: 10rem;
+	font-size: 1.5rem;
+}
+
+.details .instructions {
+	width: 77%;
+	margin: auto;
+	font-size: 1.2rem;
+}
+
+.details .btn {
+	background-color: #ffffff;
+	align-items: center;
+	margin: 2rem 0;
+}
+
+.details .btn button {
+	color: #ffffff;
+	align-items: center;
+	font-size: 1.3rem;
+	letter-spacing: 0.1rem;
+	font-weight: bolder;
+	background-color: #e35640;
+	padding: 0.8rem 2.5rem;
+	border-radius: 1.5rem;
+	border-width: 0;
+
+}
+
+/* <!-- END DETAILS SECTION --> */

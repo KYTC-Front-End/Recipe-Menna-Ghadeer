@@ -52,6 +52,57 @@
         font-weight: bold;
     }
 
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+    .details aside {
+        gap: 0;
+    }
+
+    .details div .det1 {
+        width: 15rem;
+        height: 18rem;
+
+    }
+
+    .details .det2 {
+        width: 15rem;
+        height: 24rem;
+
+    }
+
+    .details div p {
+        font-size: 1.5rem;
+    }
+
+    .details h4 {
+        margin-left: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .details .ingredients {
+        width: 80%;
+        margin: auto;
+        display: block;
+        font-size: 1.01rem;
+        line-height: 2rem;
+    }
+
+    .details .instructions {
+        width: 87%;
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    .details .btn {
+        background-color: #ffffff;
+        align-items: center;
+        margin: 2rem 0;
+    }
+
+    .details .btn button {
+        font-size: 1rem;
+        padding: 0.8rem 2.2rem;
+
+    }
 
 }
 
@@ -87,6 +138,41 @@
         flex-wrap: wrap;
         width: 60%;
         margin: 0 auto 2rem;
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+    .details aside {
+        gap: 1rem;
+    }
+
+    .details div .det1 {
+        width: 17rem;
+    }
+
+    .details .det2 {
+        width: 25rem;
+        height: 24rem;
+    }
+
+    .details h4 {
+        margin-left: 2.5rem;
+        font-size: 1.9rem;
+        padding: 1.8rem 0;
+    }
+
+    .details .ingredients {
+        width: 80%;
+        margin: auto;
+        display: block;
+        font-size: 1.4rem;
+        line-height: 2.01rem;
+    }
+
+    .details .instructions {
+        width: 88%;
+        margin: auto;
+        line-height: 2rem;
+        font-size: 1.4rem;
     }
 }
 
@@ -132,6 +218,17 @@
 
     }
 
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+    .details aside {
+        gap: 5rem;
+    }
+
+
+    .details .det2 {
+        width: 30rem;
+        height: 31rem;
+
+    }
 
 }
 
@@ -160,4 +257,6 @@
     .features .description p {
         font-size: 1.5rem;
     }
+
+
 }
