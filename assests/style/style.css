@@ -439,7 +439,7 @@ input[type=submit]:hover {
 
 /* <!-- START DETAILS SECTION --> */
 
-.details aside{
+.details aside {
 	background-color: #e35640;
 	align-items: center;
 	justify-content: space-around;
@@ -447,17 +447,19 @@ input[type=submit]:hover {
 	gap: 10rem;
 }
 
-.details div .det1{
+.details div .det1 {
 	width: 20rem;
 	height: 20rem;
-	
+
 }
-.details  .det2{
+
+.details .det2 {
 	width: 40rem;
 	height: 37rem;
-	
+
 }
-.details div p{
+
+.details div p {
 	line-height: 5rem;
 	text-align: center;
 	font-size: 2rem;
@@ -465,10 +467,11 @@ input[type=submit]:hover {
 }
 
 .details h4 {
-	margin-left:5rem ;
+	margin-left: 5rem;
 	font-size: 2rem;
 	padding: 2rem 0;
 }
+
 .details .ingredients {
 	width: 70%;
 	margin: auto;
@@ -476,28 +479,30 @@ input[type=submit]:hover {
 	gap: 10rem;
 	font-size: 1.5rem;
 }
+
 .details .instructions {
 	width: 77%;
 	margin: auto;
 	font-size: 1.2rem;
 }
 
-.details .btn{
+.details .btn {
 	background-color: #ffffff;
 	align-items: center;
 	margin: 2rem 0;
 }
 
-.details .btn button{
+.details .btn button {
 	color: #ffffff;
 	align-items: center;
 	font-size: 1.3rem;
 	letter-spacing: 0.1rem;
-	font-weight: bolder	;
+	font-weight: bolder;
 	background-color: #e35640;
 	padding: 0.8rem 2.5rem;
 	border-radius: 1.5rem;
-	border-width:0 ;
-	
+	border-width: 0;
+
 }
-	/* <!-- END DETAILS SECTION --> */
+
+/* <!-- END DETAILS SECTION --> */
