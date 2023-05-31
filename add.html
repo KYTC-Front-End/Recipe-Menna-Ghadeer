@@ -15,7 +15,7 @@
   <header>
     <nav>
       <div class="logo">
-        <img src='./assests/image/logo.jpeg' />
+        <img src='assests/imges/logo.png' />
         <form class="search">
           <!-- <i class="fa fa-search"></i> -->
           <input type="text" placeholder="  Search.." name="">
@@ -33,58 +33,41 @@
       </ul>
     </nav>
   </header>
-  <h2>If you have an additional Recipe</h2>
-  <div class="container">
-    <form action="/action_page.php">
-      <div class="row">
-        <div class="col-25">
-          <label for="Recipe Name ">Recipe Name </label>
-        </div>
-        <div class="col-75">
-          <input type="text" id="Recipe Name" name="Recipe Name" placeholder="Recipe Name ..">
-        </div>
+
+  <section class="add-page">
+    <h2>If you have an additional Recipe</h2>
+    <form class="add">
+      <div class="box">
+        <label>Recipe Name </label>
+        <input placeholder=" Recipe Name" type="text">
       </div>
-      <div class="row">
-        <div class="col-25">
-          <label for="Recipe gradients">Recipe gradients</label>
-        </div>
-        <div class="col-75">
-          <input type="text" id="Recipe gradients" name="Recipe gradients" placeholder="Recipe gradients..">
-        </div>
+      <div class="box">
+        <label>Recipe gradients </label>
+        <input placeholder=" Recipe gradients" type="text">
       </div>
-      <div class="row">
-        <div class="col-25">
-          <label for="Recipe steps">Recipe steps</label>
-        </div>
-        <div class="col-75">
-          <textarea id="Recipe steps" name="Recipe steps" placeholder="Write Recipe steps.."
-            style="height:200px"></textarea>
-        </div>
+      <div class="box">
+        <label>Recipe steps </label>
+        <textarea placeholder=" Recipe steps"></textarea>
       </div>
-      <div class="row">
-        <div class="col-25">
-          <label for="Notes">Notes</label>
-        </div>
-        <div class="col-75">
-          <input type="text" id="Notes" name="Notes" placeholder="Notes..">
-        </div>
+      <div class="box">
+        <label>Notes </label>
+        <textarea placeholder=" Notes"></textarea>
       </div>
-      <div class="row">
-        <div class="col-25">
-          <label for="Notes">Picture</label>
-        </div>
-        <div class="col-75">
-          <input type="file">
-        </div>
+      <div class="box">
+        <label>Add photos </label>
+        <img src="assests/imges/add_a_photo.png" alt="">
       </div>
-      <div class="row">
+      <div class="but">
         <input type="submit" value="Send">
       </div>
+
     </form>
-  </div>
+  </section>
+
+
   <!-- START FOOTER SECTION -->
   <footer>
-    <img src="imges/logo.png" alt="">
+    <img src="assests/imges/logo.png" alt="">
     <ul class='footer-bar'>
       <span class="footer-menu">
         <li><a href="">Home</a></li>
