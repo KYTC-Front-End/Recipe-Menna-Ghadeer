@@ -228,7 +228,7 @@ figure {
 .section-highlighting .form-info .box-highlighting {
 	background-color: #e35640;
 	width: 24rem;
-	height: 35rem;
+	height: 36rem;
 }
 
 .section-highlighting .form-info .box-highlighting .img {
@@ -270,15 +270,21 @@ figure {
 .next a {
 	text-align: center;
 	text-decoration: none;
+	font-size: 1.4rem;
+	color: #000;
+
 }
 
-.next a :first-child {
+.next :first-child {
 	text-decoration: 1rem solid;
+	color: #e35640;
+	text-decoration: underline;
 }
 
 /* <!-- END SECTION HIGHLIGTING SECTION --> */
 footer {
 	background-color: #e35640;
+	margin-top: 3rem;
 }
 
 
